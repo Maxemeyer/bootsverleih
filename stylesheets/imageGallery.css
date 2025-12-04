@@ -7,7 +7,7 @@
 #bigPicture {
     height: 540px;
     width: 960px;
-    background-image: url('images/imageGallery/image1.webp');
+    background-image: url('../images/imageGallery/image1.webp');
     background-position: center center;
     background-size: cover;
     border-radius: 16px;
@@ -17,7 +17,7 @@
 #smallPictures {
     width: 960px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
 }
 
@@ -42,25 +42,25 @@ input:checked {
 }
 
 #image1 {
-    background-image: url("images/imageGallery/image1.webp");
+    background-image: url("../images/imageGallery/image1.webp");
 }
 
 #image2 {
-    background-image: url("images/imageGallery/image2.webp");
+    background-image: url("../images/imageGallery/image2.webp");
 }
 
 #image3 {
-    background-image: url("images/imageGallery/image3.webp");
+    background-image: url("../images/imageGallery/image3.webp");
 }
 
 #image4 {
-    background-image: url("images/imageGallery/image4.webp");
+    background-image: url("../images/imageGallery/image4.webp");
 }
 
 #image5 {
-    background-image: url("images/imageGallery/image5.webp");
+    background-image: url("../images/imageGallery/image5.webp");
 }
 
 #image6 {
-    background-image: url("images/imageGallery/image6.webp");
+    background-image: url("../images/imageGallery/image6.webp");
 }

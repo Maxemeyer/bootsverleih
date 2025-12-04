@@ -1,0 +1,66 @@
+.thumbnailCarousel {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+#bigPicture {
+    height: 540px;
+    width: 960px;
+    background-image: url('../images/imageGallery/image1.webp');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    transition: background-image 0.3s;
+}
+
+#smallPictures {
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    appearance: none;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+    background-size: cover;
+}
+input:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+input:active {
+    opacity: 0.6;
+}
+input:checked {
+    border: 2px solid black;
+}
+
+#image1 {
+    background-image: url("../images/imageGallery/image1.webp");
+}
+
+#image2 {
+    background-image: url("../images/imageGallery/image2.webp");
+}
+
+#image3 {
+    background-image: url("../images/imageGallery/image3.webp");
+}
+
+#image4 {
+    background-image: url("../images/imageGallery/image4.webp");
+}
+
+#image5 {
+    background-image: url("../images/imageGallery/image5.webp");
+}
+
+#image6 {
+    background-image: url("../images/imageGallery/image6.webp");
+}
